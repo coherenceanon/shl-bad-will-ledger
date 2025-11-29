@@ -1,3 +1,7 @@
+# This is not executable code.
+# It’s a prompt template you paste into an AI model to pre-score the 25 questions
+# using public data about COMPANY, returning dimension scores as JSON.
+
 # audit_with_ai.py — Real Systemic Harm Ledger audit using any 2025 AI
 # Just open this file → copy the prompt → paste into Grok/Claude/Gemini/etc.
 
