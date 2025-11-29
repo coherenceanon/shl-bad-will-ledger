@@ -1,15 +1,15 @@
 # audit_with_ai.py — Real Systemic Harm Ledger audit using any 2025 AI
-# Just open this file → copy the prompt → paste into Grok/Claude/Perplexity/etc.
+# Just open this file → copy the prompt → paste into Grok/Claude/Gemini/etc.
 
 print("""
 SYSTEMIC HARM LEDGER — FULL AUDIT WITH AI (2025)
 
-1. Open any frontier model (no signup needed for basic use):
+1. Open any frontier model (no signup needed):
    • https://grok.x.ai
    • https://claude.ai
+   • https://gemini.google.com
    • https://www.perplexity.ai
    • https://chatgpt.com
-   • https://gemini.google.com
 
 2. Paste this exact prompt (replace COMPANY):
 
@@ -24,25 +24,23 @@ Framework:
 Audit the company "COMPANY" using only public 2023–2025 data.
 
 Answer every one of the 25 questions in audit_of_will.md with evidence and a 0 or 1.
-Convert dimension totals (0–5 each) to 0–10 score using:
+Convert dimension totals (0–5 each) to final 0–10 score:
   0–1 checks → 0 pts | 2–3 checks → 1 pt | 4–5 checks → 2 pts per dimension
 
-Final output (strict JSON only, no extra text):
+Final output — strict JSON only, no extra text:
 
 {
   "company": "COMPANY",
   "score": 0,
-  "quadrant": "Extraction|Performance|Drift|Stewardship",
+  "quadrant": "Stewardship|Drift|Performance|Extraction",
   "shl_billions": 0.0,
   "verdict": "One brutal sentence"
 }
 
-SHL = (10 - score) × 3.9. Be ruthless. Do not accept corporate PR.
+SHL = (10 - score) × 3.9. Be ruthless. Ignore corporate PR.
 ────────────────────────────────────────────────────────────────────────────
 
-3. Press Enter.
+3. Press Enter → get the real score, quadrant, and SHL in ~20 seconds.
 
-You now have the real score, quadrant, and SHL in ~20 seconds.
-
-MIT License · coherenceanon · November 2025
+Public domain · coherenceanon · November 2025
 """)
