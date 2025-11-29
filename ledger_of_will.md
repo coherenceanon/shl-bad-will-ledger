@@ -630,3 +630,6 @@ That alignment is the work.
 That work is leadership.
 And leadership is the responsibility
 we pass forward to those who will inherit what we build.
+
+### Read the source materials https://wisdomishowyoulive.org/works/noahs-arc/the-ledger-of-will/
+
