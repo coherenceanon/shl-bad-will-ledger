@@ -1,14 +1,13 @@
-# audit.py — Official Systemic Harm Ledger scoring (2025)
-# Run: python audit.py   → fills in the real 0–10 score
+# audit.py — Official Systemic Harm Ledger scoring (November 2025)
+# Run: python audit.py
 
 print("""
 SYSTEMIC HARM LEDGER — OFFICIAL SCORING (Nov 2025)
 
-You have just completed the 25-question Audit of Will.
-Now count the checks in each dimension:
+Count the checks for each dimension (0–5):
 
 Direction      : __ / 5
-Burden         : __ / 5  
+Burden         : __ / 5
 Coherence      : __ / 5
 Accountability : __ / 5
 Risk           : __ / 5
@@ -18,28 +17,32 @@ Scoring per dimension:
   2–3 checks → 1 point
   4–5 checks → 2 points
 
-Enter the five numbers below (example: 0 1 2 1 2)
+Enter the five dimension point values (0, 1, or 2 each), space-separated:
+Example: 0 1 2 1 2
 """)
 
 raw = input("→ ").strip()
-nums = [int(x) for x in raw.split()[:5]]
+nums = [int(x) for x in raw.split()[:5] if x in "012"]
 
-total = sum(
-    0 if n <= 1 else
-    1 if n <= 3 else
-    2 for n in nums
-)
+if len(nums) != 5:
+    print("Error: exactly five numbers required (0, 1, or 2)")
+    exit()
 
-quad = (
-    "Extraction"  if total <= 2 else
-    "Performance" if total <= 5 else
-    "Drift"       if total <= 8 else
-    "Stewardship"
-)
+total = sum(nums)
 
-shl = round((10 - total) * 3.9, 1)   # 10→$0B, 0→$39B (calibrated Nov 2025)
+if total >= 9:
+    quad = "Stewardship"
+    shl = round((10 - total) * 3.9, 1)
+elif total >= 6:
+    quad = "Drift"
+    shl = round((10 - total) * 3.9, 1)
+elif total >= 3:
+    quad = "Performance"
+    shl = round((10 - total) * 3.9, 1)
+else:
+    quad = "Extraction"
+    shl = round((10 - total) * 3.9, 1)
 
 print(f"\nTOTAL SCORE : {total}/10 → {quad}")
-print(f"SHL estimate: ~${shl}B")
-print("\nThis is the real, final, canonical number.")
-print("No AI. No scraping. No excuses.")
+print(f"SHL estimate : ~${shl}B")
+print("\nNo AI. No scraping. No excuses.")
