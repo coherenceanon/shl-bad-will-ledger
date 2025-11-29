@@ -1,0 +1,38 @@
+# scoring_engine.py — Systemic Coherence Ledger v1.0
+import requests, sys
+from bs4 import BeautifulSoup
+from urllib.parse import quote_plus
+
+def search(query):
+    url = f"https://html.duckduckgo.com/html/?q={quote_plus(query)}"
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    try:
+        r = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        return ' '.join([a.text for a in soup.find_all('a', class_='result__a')][:8])
+    except:
+        return ""
+
+def audit(company):
+    pairs = [
+        [f"{company} mission drift OR contradiction", f"{company} purpose alignment"],
+        [f"{company} worker injuries OR burnout OR turnover", f"{company} employee support"],
+        [f"{company} values vs actions OR hypocrisy", f"{company} incentives aligned"],
+        [f"{company} leadership accountability OR blame", f"{company} owns failures"],
+        [f"{company} regulatory fines OR lawsuits 2023..2025", f"{company} risk corrected"]
+    ]
+    scores = []
+    for neg, pos in pairs:
+        text = search(neg) + " " + search(pos)
+        positive = sum(w in text.lower() for w in ["good","strong","fixed","aligned","safe","owns","corrected"])
+        negative = sum(w in text.lower() for w in ["drift","injury","lawsuit","fine","blame","deflect","ignored","crisis"])
+        scores.append(max(0, min(5, positive - negative + 5)))
+    total = sum(scores)
+    quadrant = "Stewardship" if total >= 20 else "Drift" if total >= 14 else "Performance" if total >= 9 else "Extraction"
+    shl_billion = round((25 - total) * 1.8, 1)
+    return total, quadrant, shl_billion
+
+if __name__ == "__main__":
+    company = sys.argv[1] if len(sys.argv) > 1 else "Tesla"
+    score, quad, shl = audit(company)
+    print(f"{company} → {score}/25 | {quad} | ~${shl}B SHL")

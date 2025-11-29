@@ -1,0 +1,86 @@
+# The Audit Of Will | Living Intentionally For Evolving L.I.F.E.
+
+# The Audit Of Will
+
+The Audit of Will is a diagnostic lens that reveals how organizations create trust or harm through their daily decisions, incentives, and structures.
+
+It is not a culture survey.  
+It is not an engagement score.  
+It is a structural pattern-recognition tool built for leaders, investors, regulators, and citizens who want to see systems clearly.
+
+### INTRODUCTION — THE LENS THAT REVEALS
+
+Five dimensions.  
+Twenty-five observable questions.  
+One score out of 25.
+
+Can be run quarterly or annually using only public data — no internal cooperation required.
+
+### THE FIVE DIMENSIONS
+
+1. DIRECTION  
+   Do repeated decisions over years reinforce or quietly erode the stated purpose?
+
+2. BURDEN  
+   Who actually carries the weight of the system’s choices and volatility?
+
+3. COHERENCE  
+   Do actions, incentives, and outcomes match the public claims?
+
+4. ACCOUNTABILITY  
+   Does authority carry the consequences it creates, or is blame displaced?
+
+5. RISK  
+   What visible drift patterns (injuries, turnover, lawsuits, contradictions) remain unaddressed quarter after quarter?
+
+Each dimension is scored 0–5  
+(5 = strong coherence and stewardship, 0 = extraction and bad faith)
+
+Total score determines quadrant position on the Ledger of Will.
+
+### QUADRANT MAPPING
+
+≥ 20 → Quadrant I   Stewardship  
+14–19 → Quadrant II  Unexamined Drift  
+9–13 → Quadrant III Performance  
+≤ 8  → Quadrant IV  Extraction
+
+### HOW TO RUN THE AUDIT
+
+Anyone can execute the full 25-question audit using only public sources:
+
+- SEC filings & earnings-call transcripts  
+- OSHA / labor-board citations  
+- Court dockets & whistleblower disclosures  
+- Glassdoor / Blind / TeamBlind sentiment  
+- Regulatory investigations (NHTSA, FTC, DOJ, EU, etc.)  
+- Employee turnover & injury statistics  
+- Customer complaint trends  
+- News archives
+
+No internal access needed.
+
+### LIVE SCORES — 29 Nov 2025 (public data only)
+
+Tesla          1/25  Extraction  
+Amazon         1/25  Extraction  
+Meta           4/25  Extraction  
+Boeing         3/25  Extraction  
+OpenAI         7/25  Performance  
+Apple         11/25  Drift  
+Microsoft     13/25  Drift  
+Patagonia     23/25  Stewardship  
+Costco        18/25  Drift → improving  
+Novo Nordisk  21/25  Stewardship
+
+### WHY THE AUDIT WORKS
+
+It measures structural reality, not declared intention.  
+Contradictions become impossible to hide.  
+Deflection patterns become visible.  
+Drift can no longer hide behind narrative, growth, or PR.
+
+Leaders who run it privately regain clarity.  
+Those who ignore it eventually face it publicly — through regulators, talent flight, customers, or markets.
+
+Return to The Ledger of Will → Review the SHL Model →
