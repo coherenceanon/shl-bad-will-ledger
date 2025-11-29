@@ -282,5 +282,353 @@ This is:
 * complexity absorbed at the level of authority,
 * trust strengthened by consistency.
 
-This quadrant
+This quadrant is not perfection.
+It is **integrity in motion** .
 
+The system’s direction matches its claims.
+
+##### II. GOOD FAITH + BAD WILL
+
+**Unexamined Drift — sincerity without structural alignment**
+
+The system intends coherence
+but produces harm or contradiction.
+
+This is:
+
+* values held sincerely but supported weakly,
+* responsibility misplaced unintentionally,
+* structural gaps unrecognized,
+* burdens shifted without awareness,
+* contradictions allowed to grow beneath aspiration.
+
+Leaders in this quadrant are often earnest
+but under-calibrated.
+
+Good Faith does not guarantee Good Will.
+Good intentions cannot compensate for misaligned systems.
+
+The system drifts not from malice,
+but from unexamined architecture.
+
+##### III. BAD FAITH + GOOD WILL
+
+**Performance — trust maintained through appearance**
+
+The system does not intend coherence
+but still produces trust.
+
+This is the most deceptive quadrant.
+
+It appears stable because:
+
+* reputation is strong,
+* outcomes seem positive,
+* goodwill from the past still circulates.
+
+But underneath:
+
+* values are optional,
+* responsibility is displaced,
+* contradictions accumulate quietly,
+* narrative replaces alignment,
+* the system uses its inherited trust as a shield.
+
+Good Will masks Bad Faith.
+
+This quadrant often precedes collapse.
+
+##### IV. BAD FAITH + BAD WILL
+
+**Extraction — misalignment expressed as harm**
+
+The system neither intends coherence
+nor produces trust.
+
+Here we find:
+
+* self-preservation as strategy,
+* harm normalized,
+* accountability absent or theatrical,
+* complexity pushed downward,
+* purpose referenced but rarely restraining behavior,
+* trust declining faster than it can be repaired.
+
+This quadrant is not merely failing.
+It is **eroding** .
+
+Without correction,
+extraction becomes identity.
+
+#### THE CROSS IS A MIRROR, NOT A JUDGMENT
+
+No system stays in one quadrant forever.
+Systems move.
+
+They drift.
+They realign.
+They collapse.
+They recover.
+
+The purpose of the cross is not to label a system
+but to orient leadership:
+
+* Where are we now?
+* What direction are we moving?
+* What is being produced?
+* What is being preserved?
+* What is being betrayed?
+* What must be corrected?
+
+The cross reveals what leaders cannot see by instinct alone:
+**the coherence or contradiction between what the system means**<br>**and what the system makes.**
+
+This is the beginning of accountability.
+
+---
+
+### SECTION IV — WHAT PLOTTING REVEALS
+
+**The Structural Truths That Emerge When Intention and Impact Are Seen Together**
+
+Plotting Faith and Will on the same cross does not create a model.
+It reveals **the actual architecture of a system** —
+the truths that were present all along
+but scattered across experience, instinct, and contradiction.
+
+Seeing the cross for the first time is not an introduction.
+It is a recognition.
+
+It makes visible what leaders often intuit but rarely articulate:
+**a system always moves in the direction of its practiced patterns,**<br>**not its stated purpose.**
+
+Plotting reveals five structural truths.
+
+##### 1. Intention and Impact Are Not the Same
+
+Faith (intention) can be coherent
+while Will (impact) is not.
+
+Many systems believe their Good Faith guarantees Good Will.
+But sincerity cannot compensate for structural misalignment.
+
+Conversely, Will can appear strong—
+good outcomes, good reputation—
+while Faith is misaligned.
+
+Plotting reveals the uncomfortable but liberating truth:
+
+**What a system means and what a system does**<br>**must be seen as separate realities.**
+
+Only then can they be realigned.
+
+##### 2. Good Will Can Hide Bad Faith
+
+A system can stand in a quadrant of inherited trust
+while its posture has drifted toward self-preservation.
+
+This is the most dangerous state.
+
+Bad Faith disguised by Good Will
+creates:
+
+* delayed consequences,
+* unspoken contradictions,
+* cultural erosion,
+* a widening gap between narrative and reality.
+
+Leaders in this quadrant fail not because of crisis,
+but because crisis was concealed by goodwill for too long.
+
+Plotting removes the disguise.
+
+##### 3. Good Faith Can Still Create Bad Will
+
+A system can be principled
+and still produce harm.
+
+This is the quadrant of unexamined drift.
+
+Plotting makes it clear:
+
+* values alone cannot hold alignment,
+* intentions do not carry structural weight,
+* aspiration does not resolve contradiction,
+* sincerity does not guarantee coherence.
+
+This frees leaders from self-blame
+and directs their attention to architecture, not virtue.
+
+Good Faith must be supported by good structure.
+
+##### 4. Bad Will Is Not Always Malevolent — Often It Is Structural
+
+Bad Will is not proof of corruption.
+It is proof of **misalignment** .
+
+Plotting clarifies that:
+
+* burden displacement,
+* contradictory signals,
+* misaligned incentives,
+* and systemic drift
+
+do not always originate from malice.
+Often they arise from leaders who have not yet seen the full ledger.
+
+Plotting converts ambiguity into accuracy.
+
+##### 5. Movement Matters More Than Position
+
+A system is not defined by the quadrant it occupies,
+but by the direction it is moving.
+
+Plotting reveals trajectory:
+
+* toward alignment or away from it,
+* toward coherence or contradiction,
+* toward stewardship or extraction,
+* toward Good Faith expressed as Good Will or Bad Faith expressed as Bad Will.
+
+A single quadrant is a moment.
+A system’s direction is its future.
+
+The cross is not a static map.
+It is a compass.
+
+#### WHAT PLOTTING GIVES LEADERS
+
+The ability to see:
+
+* not just whether people trust the system, but **whether that trust is deserved** ;
+* not just whether the system intends good, but **whether that good is experienced** ;
+* not just whether the system seems stable, but **what stability is built upon** ;
+* not just individual decisions, but **the cumulative pattern they create** .
+
+Plotting reveals the truth leaders must confront
+before systems can realign.
+
+It takes the invisible half of impact
+and places it beside the visible half of trust.
+
+Only when both are seen
+can leadership be exercised with coherence.
+
+---
+
+### SECTION V — WHAT IT MEANS FOR BUSINESS
+
+**Organizations Built on Goodwill Must Reckon With Bad Will**
+
+Modern businesses rely heavily on goodwill.
+Brand equity, reputation, customer trust, investor confidence—
+these are treated as strategic assets.
+
+But plotted on the cross, a deeper truth appears:
+
+**Most organizations measure only the trust they receive,**<br>**not the cost they generate.**
+
+This is the half-ledger problem at industrial scale.
+
+The cross exposes three truths about business systems:
+
+##### 1. Goodwill Without Good Faith Becomes Reputation Without Integrity
+
+Many companies enjoy strong goodwill because of:
+
+* past performance,
+* polished narrative,
+* market dominance,
+* recognized branding,
+* customer habituation.
+
+But goodwill alone does not reveal the system’s true direction.
+
+Bad Faith can hide behind:
+
+* aspirational values that do not govern decisions,
+* public commitments that are not operationalized,
+* messaging that outpaces coherence,
+* performance that outruns alignment.
+
+The cross reveals that goodwill is **fragile when unsupported by Good Faith**.
+
+##### 2. Performance Without Purpose Creates Fragile Systems
+
+The quadrant of Bad Faith + Good Will is the most deceptive.
+
+It produces:
+
+* short-term success,
+* high valuation,
+* strong reputation,
+* investor confidence.
+
+But it is built on:
+
+* narrative over structure,
+* image over integrity,
+* extraction disguised as excellence,
+* goodwill that is being consumed faster than it is renewed.
+
+The cross shows that performance alone does not create stewardship.
+
+It creates **delayed crisis**.
+
+##### 3. Extraction Is Not Inevitable — It Is Architectural
+
+Bad Faith + Bad Will is not a moral failing.
+It is a **structural choice** .
+
+It arises when:
+
+* incentives privilege short-term over long-term,
+* responsibility flows downward instead of upward,
+* contradictions are tolerated instead of resolved,
+* burden is externalized instead of internalized,
+* opacity is preferred to transparency.
+
+The cross reveals that extraction is not fate.
+It is the predictable consequence of unexamined architecture.
+
+#### BUSINESS IMPLICATIONS
+
+The cross gives business leaders three gifts:
+
+1. **Clarity on True Valuation** — goodwill is not infinite; it is finite and directional.
+
+2. **Visibility into Trajectory** — performance is not stability; it is a leading indicator of drift or collapse.
+
+3. **A Path to Stewardship** — alignment is not aspirational; it is structural and measurable.
+
+Businesses that plot Faith and Will gain the ability to:
+
+* protect goodwill before it erodes,
+* correct drift before it becomes extraction,
+* realign incentives before performance becomes unsustainable,
+* and steward systems toward coherence before goodwill is exhausted.
+
+The cross is not a critique of business.
+It is a tool for business to see itself whole.
+
+---
+
+### SECTION VI — THE QUIET TRUTH
+
+A system tells the truth of itself
+not by what it claims
+but by the direction its choices form.
+
+When intention and impact are brought into view,
+the truth is no longer hidden.
+
+It stands plainly:
+
+**We shape the world through the alignment of what we mean**<br>**and what we make.**
+
+That alignment is the work.
+That work is leadership.
+And leadership is the responsibility
+we pass forward to those who will inherit what we build.
+
+→ [SHL Model](shl_model.md) | [Audit of Will](audit_of_will.md)
