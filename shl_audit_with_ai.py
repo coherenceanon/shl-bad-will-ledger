@@ -24,7 +24,7 @@ Framework:
 Audit the company "COMPANY" using only public 2023–2025 data.
 
 Answer every one of the 25 questions in audit_of_will.md with evidence and a 0 or 1.
-Then convert the five dimension totals (0–5 each) into the final 0–10 score using:
+Convert dimension totals (0–5 each) to 0–10 score using:
   0–1 checks → 0 pts | 2–3 checks → 1 pt | 4–5 checks → 2 pts per dimension
 
 Final output (strict JSON only, no extra text):
@@ -37,9 +37,12 @@ Final output (strict JSON only, no extra text):
   "verdict": "One brutal sentence"
 }
 
-SHL = (10 − score) × 3.9 billion. Be ruthless. Do not accept corporate PR.
+SHL = (10 - score) × 3.9. Be ruthless. Do not accept corporate PR.
 ────────────────────────────────────────────────────────────────────────────
 
 3. Press Enter.
 
-You now have the real score, quadrant, and SHL valuation in ~20 seconds.
+You now have the real score, quadrant, and SHL in ~20 seconds.
+
+MIT License · coherenceanon · November 2025
+""")
