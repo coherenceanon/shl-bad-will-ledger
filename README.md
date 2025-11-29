@@ -7,6 +7,14 @@ Turns Bad Will into a balance-sheet liability using only public data.
 - **[SHL Model](shl_model.md)** — the math: SHL = (10 − score) × $3.9B per point
 - **[Audit of Will](audit_of_will.md)** — 25 questions + official scoring (0–10)
 
+### Who this is for
+- For CFOs / CAOs – to see how Bad Will could sit next to goodwill as a contingent liability.
+- For auditors / analysts – to standardise how harm shows up in reports and models.
+- For stewards / NGOs / faith communities – to run independent, transparent audits of systemic harm.
+
+### What this is NOT
+This is a public-data ethics diagnostic, not a credit rating, investment recommendation, or legal opinion.
+
 ### Run a Real Audit (choose one)
 
 **Method 1 — Manual (recommended, fully auditable)**
@@ -21,3 +29,4 @@ Turns Bad Will into a balance-sheet liability using only public data.
 No scraping. No lies. No magic button.
 
 All text is public domain · coherenceanon · November 2025
+
