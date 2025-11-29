@@ -4,7 +4,7 @@ Turns Bad Will into a balance-sheet liability using only public data.
 
 ### Core Files
 - **[Ledger of Will](ledger_of_will.md)** — the 2×2 framework (Faith × Will)
-- **[SHL Model](shl_model.md)** — the math: SHL = (10 − score) × $3.9B per point
+- **[SHL Model](systemic_harm_liability.md)** — the math: SHL = (10 − score) × $3.9B per point
 - **[Audit of Will](audit_of_will.md)** — 25 questions + official scoring (0–10)
 
 ### Who this is for
@@ -29,5 +29,6 @@ This is a public-data ethics diagnostic, not a credit rating, investment recomme
 No scraping. No lies. No magic button.
 
 All text is public domain · coherencesteward · November 2025
+
 
 
