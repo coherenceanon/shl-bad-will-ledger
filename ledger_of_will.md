@@ -630,5 +630,3 @@ That alignment is the work.
 That work is leadership.
 And leadership is the responsibility
 we pass forward to those who will inherit what we build.
-
-→ [SHL Model](shl_model.md) | [Audit of Will](audit_of_will.md)
