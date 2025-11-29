@@ -24,10 +24,11 @@ Turns Bad Will into a balance-sheet liability using only public data.
 5. **SHL (billions USD) = (10 − total_score) × 3.9**
 
 ### Method 2 – AI-Assisted (any frontier model)
-Paste this **exact prompt** into Grok, Claude, Gemini, ChatGPT, Llama 3.1, or any capable model:
+Paste this **exact prompt** into Grok, Claude, Gemini, ChatGPT, Llama 3.1, or any capable model and replace "Company":
 
 "You are a forensic auditor executing the Systemic Harm Ledger (November 2025).
 Audit the company "[COMPANY]" using only public 2023–2025 data.
 Answer every one of the 25 questions in audit_of_will.md with evidence and a 0 or 1.
 Use the official scoring rules and return strict JSON only."
+
 
