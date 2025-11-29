@@ -49,5 +49,6 @@ The $3.9B multiplier is deliberately conservative:
 
 Companies that refuse to recognize SHL simply delay the inevitable — and make the eventual correction larger.
 
-→ [Ledger of Will](ledger_of_will.md) | [Run the Audit](audit_of_will.md) | [Calculate score → audit.py](shl_audit.py)
+→ [Ledger of Will](ledger_of_will.md) | [Run the Audit](audit_of_will.md) | [Run the audit](shl_audit.py)
+
 
