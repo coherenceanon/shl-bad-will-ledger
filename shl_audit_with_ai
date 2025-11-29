@@ -1,0 +1,33 @@
+SYSTEMIC HARM LEDGER — HOW TO RUN A REAL AUDIT (2025)
+
+1. Open any of these (all free, no signup needed for this):
+   • https://grok.x.ai
+   • https://claude.ai
+   • https://www.perplexity.ai
+   • https://chatgpt.com
+   • https://gemini.google.com
+
+2. Paste this exact prompt (replace COMPANY):
+
+────────────────────────────────────────
+You are a forensic auditor executing the Systemic Harm Ledger (November 2025.
+
+Framework:
+• https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/ledger_of_will.md
+• https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/shl_model.md
+• https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/audit_of_will.md
+
+Audit the company "COMPANY" using only public 2023–2025 data.
+Answer every one of the 25 questions in audit_of_will.md with evidence and a 0 or 1.
+Final output format:
+Score: X/25
+Quadrant: Stewardship | Drift | Performance | Extraction
+SHL: ~$Y.YB
+Verdict: one brutal sentence
+
+Be ruthless. Do not accept corporate PR.
+────────────────────────────────────────
+
+3. Press Enter.
+
+That is the audit. There is no other working code at this time.
