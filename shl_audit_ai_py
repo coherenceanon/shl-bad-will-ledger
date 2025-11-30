@@ -1,69 +1,95 @@
 # NOTE:
 # This file is not executable business logic.
 # It contains a prompt template used to run the Systemic Harm Ledger (SHL)
-# “Audit of Will” with an AI model.
+# Audit of Will with an AI model.
 #
 # Usage:
-#   1. Open any frontier AI model (GPT-4.1, Claude 3.5, Gemini 2.0, etc.).
-#   2. Paste the printed prompt into the model.
+#   1. Run this script to print the prompt.
+#   2. Copy the printed text into any frontier AI model (GPT-5.1, Claude 3.5, Gemini, etc.).
 #   3. Replace COMPANY with the actual company name.
-#   4. Let the model browse public 2023–2025 data and return a single JSON
-#      object with the final SHL score, quadrant, SHL billions, and verdict.
+#   4. Paste in or allow the model to search public 2023–2025 data.
+#   5. The model must respond with a single clean JSON object that can be parsed.
 #
-# The reasoning over all 25 questions happens inside the model; the response
-# itself must be strictly valid JSON so it can be parsed by other tools.
+# The model SHOULD NOT return the 25 question scores or evidence — only the
+# aggregate JSON object defined below.
 
 print("""
-SYSTEMIC HARM LEDGER — FULL AUDIT WITH AI (2025)
+SYSTEMIC HARM LEDGER — AI AUDIT PROMPT (2025)
 
-1. Open any frontier model (no signup needed):
-   • https://grok.x.ai
+1. Open any frontier model (no signup needed), for example:
+   • https://chatgpt.com
    • https://claude.ai
    • https://gemini.google.com
    • https://www.perplexity.ai
-   • https://chatgpt.com
+   • https://grok.x.ai
 
 2. Paste this exact prompt (replace COMPANY):
 
 ────────────────────────────────────────────────────────────────────────────
 IGNORE PRIOR CONTEXT. NEW TASK.
-You are a forensic auditor for Systemic Harm Ledger (Nov 2025).
+
+You are a forensic auditor for the Systemic Harm Ledger (November 2025).
+
 Framework:
+- https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/ledger_of_will.md
+- https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/shl_model.md
+- https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/audit_of_will.md
 
-github.com/coherencesteward/shl-bad-will-ledger/blob/main/ledger_of_will.md
-github.com/coherencesteward/shl-bad-will-ledger/blob/main/shl_model.md
-github.com/coherencesteward/shl-bad-will-ledger/blob/main/audit_of_will.md
-
-Audit "COMPANY" using 2023–2025 public data (SEC, lawsuits, reviews, regs, news).
+Audit the company "COMPANY" using ONLY 2023–2025 public data
+(SEC and other filings, lawsuits, press, regulation, credible news,
+government reports, and large review aggregators).
 
 TASK:
+1. Silently score each of the 25 questions in audit_of_will.md as 0 or 1
+   based strictly on evidence (no guessing, no benefit of the doubt).
+2. Aggregate the 25 binary scores into the 5 dimensions:
+   - Workers
+   - Residents/Customers
+   - Governance
+   - Market & Power
+   - Community & Planet
+   Each dimension total is between 0 and 5.
+3. Convert each dimension total to SHL points:
+   - 0–1 checks → 0 pts
+   - 2–3 checks → 1 pt
+   - 4–5 checks → 2 pts
+4. Sum the 5 dimension point totals to get the overall SHL score (0–10).
+5. Compute SHL (Systemic Harm Load) in billions:
+   SHL = (10 - score) × 3.9
+   Round SHL to 1 decimal place.
+6. Determine the quadrant from the final score:
+   - 0–2  → "Extraction"
+   - 3–5  → "Drift"
+   - 6–8  → "Performance"
+   - 9–10 → "Stewardship"
 
-Silently score each of 25 audit_of_will.md questions 0/1 on evidence only.
-Compute dimension totals (0-5): Workers, Residents/Customers, Governance, Market & Power, Community & Planet.
-Convert totals: 0-1=0pts, 2-3=1pt, 4-5=2pts.
-Sum for overall score (0-10).
-SHL = (10 - score) × 3.9, round to 1 decimal.
-Quadrant: 0-2=Extraction, 3-5=Drift, 6-8=Performance, 9-10=Stewardship.
-Respond ONLY with JSON:
+OUTPUT FORMAT:
+Respond ONLY with a single valid JSON object:
+
 {
-"company": "COMPANY",
-"score": 0,
-"quadrant": "QUADRANT",
-"shl_billions": 0.0,
-"verdict": "Brutal sentence"
+  "company": "COMPANY",
+  "score": 0,
+  "quadrant": "QUADRANT",
+  "shl_billions": 0.0,
+  "verdict": "Brutal sentence"
 }
 
 RULES:
-
-Single valid JSON only, no extras.
-No scores/evidence/tables/explanations.
-No unescaped quotes/markdown in values.
-shl_billions as number.
-Verdict: Ruthless sentence on harm/stewardship from evidence.
-Be ruthless; ignore PR; use verifiable evidence.
+- Output MUST be a single JSON object, no surrounding text.
+- No code fences, no markdown, no comments, no trailing commas.
+- Do NOT include the 25 question scores, evidence, tables, or explanations.
+- Do NOT include citations, links, or footnotes in the JSON.
+- Use standard ASCII quotes only (no smart quotes).
+- "company" and "quadrant" are strings.
+- "score" is an integer between 0 and 10.
+- "shl_billions" is a number (not a string), rounded to 1 decimal.
+- "verdict" is one ruthless, plain-language sentence summarizing the
+  company’s systemic harm or stewardship based on the evidence.
+- Be ruthless, ignore corporate PR, and base everything on verifiable evidence.
 ────────────────────────────────────────────────────────────────────────────
 
-3. Press Enter → get the real score, quadrant, and SHL in under a minute.
+3. Press Enter → the model should return a single clean JSON object you can
+   drop straight into a parser, spreadsheet, or code.
 
 Public domain · coherencesteward · November 2025
 """)
