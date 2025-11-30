@@ -66,9 +66,9 @@ TASK
 
 6. Determine the quadrant from the final score:
      0–2  → "Extraction"
-     3–4  → "Drift"
-     5–7  → "Performance"
-     8–10 → "Stewardship"
+     3–5  → "Drift"
+     6–8  → "Performance"
+     9–10 → "Stewardship"
 
 7. Then respond with ONE JSON object ONLY, in this exact structure:
 
