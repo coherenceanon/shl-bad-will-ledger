@@ -1,17 +1,103 @@
+# NOTE:
+# This file is not executable business logic.
+# It contains a prompt template used to run the Systemic Harm Ledger (SHL)
+# “Audit of Will” with an AI model.
+#
+# Usage:
+#   1. Open any frontier AI model (GPT-4.1, Claude 3.5, Gemini 2.0, etc.).
+#   2. Paste the printed prompt into the model.
+#   3. Replace COMPANY with the actual company name.
+#   4. Let the model browse public 2023–2025 data and return a single JSON
+#      object with the final SHL score, quadrant, SHL billions, and verdict.
+#
+# The reasoning over all 25 questions happens inside the model; the response
+# itself must be strictly valid JSON so it can be parsed by other tools.
+
+print("""
+SYSTEMIC HARM LEDGER — FULL AUDIT WITH AI (2025)
+
+1. Open any frontier model (no signup needed):
+   • https://grok.x.ai
+   • https://claude.ai
+   • https://gemini.google.com
+   • https://www.perplexity.ai
+   • https://chatgpt.com
+
+2. Paste this exact prompt (replace COMPANY):
+
+────────────────────────────────────────────────────────────────────────────
 IGNORE ALL PRIOR CONTEXT. START A NEW TASK.
-You are a forensic auditor executing the Systemic Harm Ledger (November 2025). Use ONLY public 2023–2025 data.
-Frameworks: 
-   • https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/ledger_of_will.md 
-   • https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/shl_model.md 
-   • https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/audit_of_will.md
-TASK:
-   - Produce 25 numbered items (1–25).
-   - For each item, provide ONLY:
-   - "score": 0 or 1
-   - "evidence": one factual sentence with a public source DO NOT include the question text itself.
-   - After all 25 items, compute dimension totals (0–5 each).
-   - Convert each dimension total to SHL points: 0–1 checks → 0 pts 2–3 checks → 1 pt 4–5 checks → 2 pts
-   - Sum to produce the final 0–10 score.
-   - Compute SHL = (10 – score) × 3.9
-- Output ONE final JSON block at the end only, in this exact structure:
-{ "company": "verano", "score": 0, "quadrant": "Stewardship|Drift|Performance|Extraction", "shl_billions": 0.0, "verdict": "One brutal sentence" }
+
+You are a forensic auditor executing the Systemic Harm Ledger (November 2025).
+
+Framework:
+• https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/ledger_of_will.md
+• https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/shl_model.md
+• https://github.com/coherencesteward/shl-bad-will-ledger/blob/main/audit_of_will.md
+
+Audit the company "COMPANY" using only public 2023–2025 data
+(SEC filings, enforcement actions, lawsuits, worker reviews,
+regulatory records, major news investigations, etc.).
+
+TASK
+
+1. For each of the 25 questions in audit_of_will.md, decide a score of 0 or 1
+   based ONLY on public evidence. Do this reasoning silently.
+   Do NOT include the questions themselves in your reply.
+
+2. Use those 25 scores to compute the five dimension totals (0–5 each)
+   as defined in ledger_of_will.md and shl_model.md:
+   • Workers
+   • Residents/Customers
+   • Governance
+   • Market & Power
+   • Community & Planet
+
+3. Convert each dimension total into SHL points using:
+     0–1 checks → 0 pts
+     2–3 checks → 1 pt
+     4–5 checks → 2 pts
+
+4. Sum the five dimension scores to get the final overall score (0–10).
+
+5. Compute the Systemic Harm Ledger value:
+     SHL = (10 − score) × 3.9
+   Round SHL to one decimal place.
+
+6. Determine the quadrant from the final score:
+     0–2  → "Extraction"
+     3–4  → "Drift"
+     5–7  → "Performance"
+     8–10 → "Stewardship"
+
+7. Then respond with ONE JSON object ONLY, in this exact structure:
+
+{
+  "company": "COMPANY",
+  "score": 0,
+  "quadrant": "Stewardship|Drift|Performance|Extraction",
+  "shl_billions": 0.0,
+  "verdict": "One brutal sentence"
+}
+
+STRICT OUTPUT RULES
+
+- The ENTIRE response must be a single valid JSON object.
+- Do NOT wrap the JSON in backticks or markdown fences.
+- Do NOT include any text before or after the JSON.
+- Do NOT print the 25 question scores, evidence sentences, tables,
+  calculations, or explanations.
+- Inside JSON values, do NOT include unescaped quotation marks,
+  markdown, code blocks, tool IDs, or citation tokens.
+- "shl_billions" MUST be a number (not a string), rounded to one decimal.
+- "verdict" MUST be a single ruthless sentence about the company’s
+  systemic will toward harm or stewardship, based on the evidence.
+
+Be ruthless. Ignore corporate PR and marketing; rely on independent,
+verifiable public evidence wherever possible.
+────────────────────────────────────────────────────────────────────────────
+
+3. Press Enter → get the real score, quadrant, and SHL in under a minute.
+
+Public domain · coherencesteward · November 2025
+""")
